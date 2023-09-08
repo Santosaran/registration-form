@@ -25,4 +25,4 @@ uploadField.onchange = function() {
        alert("File is too big! File size should be 100kb.");
        this.value = ""; 
     };
-};
+}; 
