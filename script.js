@@ -5,7 +5,7 @@ function checkPassword() {
     let message = document.getElementById("message");
     if (password.length != 0) {
       if (password == confirmpassword) {
-        message.textContent = "Password match";
+        message.textContent = "Password match"; 
         message.style.color = "#00FF00"
       } else {
         message.textContent = "Password does not match";
