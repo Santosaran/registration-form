@@ -23,6 +23,6 @@ function checkPassword() {
 uploadField.onchange = function() {
     if(this.files[0].size > 102400){
        alert("File is too big! File size should be 100kb.");
-       this.value = "";
+       this.value = ""; 
     };
 };
