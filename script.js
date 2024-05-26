@@ -3,7 +3,7 @@ function checkPassword() {
     let confirmpassword = document.getElementById("confirm-password").value; 
     console.log(password, confirm - password);
     let message = document.getElementById("message");
-    if (password.length != 0) {
+    if (password.length != 0) { 
       if (password == confirmpassword) {
         message.textContent = "Password match"; 
         message.style.color = "#00FF00"
